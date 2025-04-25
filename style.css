@@ -12,7 +12,3 @@ nav.navbar {
     border-radius: 8px; /* Optional: gives it a nice rounded edge */
     border-color: black;
 }
-
-#game-dropdown{
-    visibility: hidden;
-}

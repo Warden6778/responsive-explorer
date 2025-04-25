@@ -52,34 +52,19 @@
         </navigation>
         <div class="container">
             <div class="jumbotron">
-                <h3><b>Tutorials</b></h3>
+                <h3 style="font-family: Permanent Marker;"><b>Tutorials</b></h3>
                 <p>This page just has Tutorials on random stuff.</p>
             </div>
         </div>
         <div class="container-fluid">
-            <h4>Categories</h4>
+            <h3>Categories</h3>
             <div class="dropdown">
-                <a href="#" id="gameDropdownLink">
-                  Games
-                </a>
-              
-                <ul id="game-dropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <h3 style="font-family: Permanent Marker;">Games</h3>
+                <ul>
+                  <li><a href="#">Minecraft</a></li>
+                  <li><a href="#">Gorilla tag</a></li>
                 </ul>
             </div>
         </div>
-        <script>
-            var gameList = document.getElementById("game-dropdown");
-            var gameDropdown = document.getElementById("gameDropdownLink");
-            gameDropdown.addEventListener("click", gameVisibilty);
-            
-            function gameVisibilty(){
-                if(gameList.hasAttribute("style", "visibilty: hidden;") == true){
-                    gameList.removeAttribute("style", "visibilty: hidden;");
-                }
-            }
-        </script>
     </body>
 </html>
