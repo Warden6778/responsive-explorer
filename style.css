@@ -6,7 +6,7 @@
 }
 nav.navbar {
     margin-top: 20px; /* Pushes navbar down */
-    max-width: 90%;   /* Shrinks width to 90% of the page */
+    max-width: 97%;   /* Shrinks width to 90% of the page */
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px; /* Optional: gives it a nice rounded edge */
