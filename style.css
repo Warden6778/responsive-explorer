@@ -12,3 +12,8 @@ nav.navbar {
     border-radius: 8px; /* Optional: gives it a nice rounded edge */
     border-color: black;
 }
+
+img.channel-img{
+    border-radius: 100%;
+    width: 75px;
+}
